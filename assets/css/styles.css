@@ -1,4 +1,7 @@
-/*^variables/*
+/*^variables*/
+@import url("https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css");
+
+
 
 /*estilos  que siempre estaran para lo que yo escoga se ponen con un background-colo:var(--el que eliga de los dos);*/
 body{
@@ -9,9 +12,18 @@ body{
 /*clases del html (componentes)*/
 
 .logo-del-navbar{
-    width:30px;
-    margin-left: 30px;
-    margin-top: 30px;
+    width:auto;
+    height:40px;
+}
+/*contenedor 1 del navbar, el que engloba todo*/
+.navbar{
+    padding:20px;
+    margin: 10px;
+    background-color: rgb(123,56,33,0.4) !important;
 }
 
+.navbar-nav .nav-link{
+    margin: 0 40px;
+    
+}
 /*formularios*/

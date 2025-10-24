@@ -11,14 +11,21 @@
 </head>
 <body>
     <!--navbar parte de arriba de la web-->
-    <nav class="navbar navbar-expand-lg bg-body-tertiary">
-  <div class="container-fluid">
-    <img class="logo-del-navbar" src="assets/img/logooo.png" alt="logooo"></img>
+    <nav class="navbar d-flex navbar-expand-lg bg-body-tertiary">
+  <div class="container-fluid d-flex justify-content-between align-items-center">
+    <!--logo del navbar(solo la imagen)-->
+    <a class="navbar-brand" href="#">
+        <img class="logo-del-navbar" src="assets/img/logooo.png" class="logo-header"></img>
+    </a>
+    <!--boton hamburguesa-->
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
+    <!--contenido dentro de la hamburguesa-->
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
-      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <!--lista del menu(inicio, proyectos...)-->
+      <ul class="navbar-nav mx-auto mb-2 mb-lg-0 d-flex justify-content-center">
+        <!--menu desplegable dentro de la lista del menu-->
         <li class="nav-item">
           <a class="nav-link active" aria-current="page" href="#">Inicio</a>
         </li>
@@ -40,6 +47,7 @@
           <a class="nav-link disabled" aria-disabled="true">Precios</a>
         </li>
       </ul>
+      <!--buscadorb del menu-->
       <form class="d-flex" role="search">
         <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search"/>
         <button class="btn btn-outline-success" type="submit">Buscar</button>
