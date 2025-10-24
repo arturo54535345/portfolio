@@ -19,11 +19,51 @@ body{
 .navbar{
     padding:20px;
     margin: 10px;
-    background-color: rgb(123,56,33,0.4) !important;
 }
-
+/*elementos del menu(inicio cartera desplegable precios)*/
 .navbar-nav .nav-link{
     margin: 0 40px;
     
 }
+/*buscador del nav*/
+.form-control{
+}
+/*boton para iniciar la busqueda*/
+.btn{
+
+}
+
+/*contenedores redondeados del logo, menu y buscador*/
+.logo-contenedor{
+    display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+  border-radius: 50%;           /* convierte en círculo */
+  background-color: #fff;       /* fondo del círculo */
+  box-shadow: 0 4px 10px rgba(0,0,0,0.3); /* sombra */
+}
+
+.menu-contenedor{
+    display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px 15px;           /* tamaño del círculo */
+  border-radius: 40%;            /* círculo */
+  background-color: #fff;     /* fondo del círculo */
+  box-shadow: 0 4px 10px rgba(0,0,0,0.2); 
+  color: #000;                 /* color del texto */
+  text-decoration: none;
+  
+}
+
+.menu-contenedor:hover{
+    background-color: #000000;
+  color: #fff;
+  box-shadow: 0 6px 15px rgba(0,0,0,0.4);
+}
+
+.menu
+
+
 /*formularios*/
