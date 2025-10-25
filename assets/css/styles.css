@@ -63,7 +63,24 @@ body{
   box-shadow: 0 6px 15px rgba(0,0,0,0.4);
 }
 
-.menu
+.buscador-contenedor{
+    background-color: #ffffff;  /* color base */
+  color: #fff;                /* texto blanco */
+  box-shadow: 0 6px 15px rgba(0,0,0,0.4); /* sombra */
+  border-radius: 50px;        /* redondez elegante */
+  border: none;               /* quitar bordes predeterminados */
+  padding: 8px 20px;          /* tamaño cómodo */
+  transition: all 0.3s ease;  /* animación suave al hover */
+}
+
+.boton-buscador-contenedor:hover,
+.boton-buscador-contenedor:focus,
+.boton-buscador-contenedor:active{
+  background-color: #000000 !important;
+  color: #fff !important;
+  box-shadow:  0 6px 15px rgba(0,0,0,0.4);
+  border: none !important;
+}
 
 
 /*formularios*/
